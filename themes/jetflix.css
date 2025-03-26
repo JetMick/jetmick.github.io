@@ -70,6 +70,7 @@ progress::-webkit-progress-value {
     }
 }
 
+.adminDrawerLogo img { content: url(https://jetmick.github.io/assets/img/banner-light.png) !important; } imgLogoIcon { content: url(https://jetmick.github.io/assets/img/banner-light.png) !important; } .pageTitleWithLogo { background-image: url(https://jetmick.github.io/assets/img/banner-light.png) !important; }
 /* Increase size of Jellyfin logo */
 .layout-desktop .pageTitleWithLogo {
     margin-left: 25px !important;
