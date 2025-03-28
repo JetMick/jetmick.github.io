@@ -1,7 +1,7 @@
 /* Background */
 .content-container {
 	background: #101010 !important;
-	color: #a30000 !important;
+	color: #a30080 !important;
 }
 .content-container .top-bar-container {
 	background: #101010 !important;
@@ -32,21 +32,21 @@
 	color: #fff !important;
 }
 a {
-	color: #a30000 !important;
+	color: #a30080 !important;
 	text-decoration: none;
 	background-color: transparent;
 }
 .content-container {
 	background: #101010 !important;
-	color: #a30000 !important;
+	color: #a30080 !important;
 }
 .mat-button, .mat-icon-button, .mat-stroked-button {
-	color: #a30000 !important;
+	color: #a30080 !important;
 	background: transparent;
 }
 /* Content Cards */
 .mat-fab, .mat-flat-button, .mat-mini-fab, .mat-raised-button {
-	color: #a30000 !important;
+	color: #a30080 !important;
 }
 .btn-ombi[_ngcontent-ehi-c257] {
 	background-color: #fff !important;
@@ -56,7 +56,7 @@ a {
 .sidenav-container .sidenav .application-name {
 	font-family: Montserrat,sans-serif;
 	text-transform: uppercase;
-	color: #a30000 !important;
+	color: #a30080 !important;
 	align-items: center;
 	font-weight: 700;
 	font-size: 36px;
@@ -80,7 +80,7 @@ a {
 }
 .sidenav-container .sidenav .active-list-item {
 	color: #fff !important;
-	background: #a30000 !important;
+	background: #a30080 !important;
 	border-radius: 0 30px 30px 0;
 	padding: 10px 20px;
 	height: auto;
