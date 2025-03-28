@@ -131,7 +131,7 @@ a {
 	color: #a30080 !important;
 }
 .mat-slide-toggle-thumb {
-	background-color: #a30080 !important;
+	background-color: #ffffff !important;
 }
 .mat-slide-toggle.mat-checked .mat-slide-toggle-bar {
 	background-color: rgba(163, 0, 152, 1) !important;
@@ -173,12 +173,12 @@ hr {
 	border-top: 1px solid #a30080;
 }
 .mat-chip.mat-standard-chip::after {
-	background: #a30080 !important;
+	background: #ffffff !important;
 }
 .mat-chip.mat-standard-chip.mat-chip-selected.mat-primary {
 	background-color: #fff !important;
 }
 .mat-chip-list-wrapper input.mat-input-element, .mat-chip-list-wrapper .mat-standard-chip {
 	margin: 4px;
-	color: #a30080 !important;
+	color: #ffffff !important;
 }
