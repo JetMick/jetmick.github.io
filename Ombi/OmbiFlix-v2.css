@@ -116,11 +116,11 @@ a {
 	margin-right: 30px;
 }
 .discover-filter-buttons-group .button-active {
-	background: #a30000 !important;
+	background: #a30080 !important;
 }
 /* Buttons */
 .mat-fab.mat-accent, .mat-flat-button.mat-accent, .mat-mini-fab.mat-accent, .mat-raised-button.mat-accent {
-	color: #1b242f;
+	color: #311c2d;
 	background-color: #fff !important;
 }
 /* Slider Buttons */
@@ -128,13 +128,13 @@ a {
 	white-space: nowrap;
 	overflow: hidden;
 	text-overflow: ellipsis;
-	color: #a30000 !important;
+	color: #a30080 !important;
 }
 .mat-slide-toggle-thumb {
-	background-color: #a30000 !important;
+	background-color: #a30080 !important;
 }
 .mat-slide-toggle.mat-checked .mat-slide-toggle-bar {
-	background-color: rgba(163, 0, 0, 1) !important;
+	background-color: rgba(163, 0, 139, 1) !important;
 }
 .mat-menu-content:not(:empty) {
 	padding-top: 8px;
@@ -152,7 +152,7 @@ a {
 	background: #101010 !important;
 }
 .mat-menu-item-highlighted:not([disabled]), .mat-menu-item.cdk-keyboard-focused:not([disabled]), .mat-menu-item.cdk-program-focused:not([disabled]), .mat-menu-item:hover:not([disabled]) {
-	background: hsla(0, 100%, 32%, 1) !important;
+	background: hsla(305, 100%, 32%, 1) !important;
 }
 .mat-menu-item::-moz-focus-inner {
 	border: 0;
@@ -167,18 +167,18 @@ a {
 }
 .mat-card {
 	background: #424242;
-	color: #a30000;
+	color: #a30080;
 }
 hr {
-	border-top: 1px solid #a30000;
+	border-top: 1px solid #a30080;
 }
 .mat-chip.mat-standard-chip::after {
-	background: #a30000 !important;
+	background: #a30080 !important;
 }
 .mat-chip.mat-standard-chip.mat-chip-selected.mat-primary {
 	background-color: #fff !important;
 }
 .mat-chip-list-wrapper input.mat-input-element, .mat-chip-list-wrapper .mat-standard-chip {
 	margin: 4px;
-	color: #a30000 !important;
+	color: #a30080 !important;
 }
