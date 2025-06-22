@@ -7,30 +7,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 :root {
-    --elegantFinFooterText: "ElegantFin v25.05.03";
+    --elegantFinFooterText: "JetFlix Theme v1";
     color-scheme: dark;
-    --darkerGradientPoint: #261111;
+    --darkerGradientPoint: #00000000;
     --darkerGradientPointAlpha: rgba(38, 17, 17, 0.85);
-    --lighterGradientPoint: #361E1E;
+    --lighterGradientPoint: rgba(240, 0, 0, 30%);;
     --lighterGradientPointAlpha: rgba(54, 30, 30, 0.85);
-    --borderColor: rgb(92, 71, 71);
-    --lighterBorderColor: rgb(255 255 255 / 20%);
-    --headerColor: rgba(54, 30, 30, 0.8);
-    --drawerColor: rgba(54, 30, 30, 0.9);
-    --selectorBackgroundColor: rgb(82, 56, 56);
+    --borderColor: rgb(0, 0, 0);
+    --lighterBorderColor: rgba(0, 0, 0, 0.5);
+    --headerColor: rgba(0, 0, 0, 70%);
+    --drawerColor: rgba(0, 0, 0, 0.5);
+    --selectorBackgroundColor: #f0000080;
     --selectorBackgroundColorAlpha: rgba(82, 56, 56, 0.5);
     --btnDeleteColor: rgb(169, 29, 29);
-    --btnDeleteBorderColor: rgb(217, 84, 84);
-    --btnSubmitColor: rgb(179, 54, 54);
-    --btnSubmitBorderColor: rgb(230, 72, 72);
-    --checkboxCheckedBgColor: rgb(230, 72, 72);
-    --highlightOutlineColor: rgb(236, 78, 38);
+    --btnDeleteBorderColor: rgb(0, 0, 0);
+    --btnSubmitColor: rgb(0, 0, 0);
+    --btnSubmitBorderColor: rgb(0, 0, 0);
+    --checkboxCheckedBgColor: rgb(0, 255, 4);
+    --highlightOutlineColor: rgb(255, 255, 255);
     --textColor: rgb(220, 209, 209);
-    --dimTextColor: rgb(176, 157, 157);
+    --dimTextColor: rgb(255, 255, 255);
     --activeColorAlpha: rgba(246, 97, 97, 0.9);
-    --activeColor: rgb(246, 97, 97);
+    --activeColor: rgb(240, 0, 0, 50%);
     --tableBodyColor: rgb(57, 32, 32 / 1);
-    --uiAccentColor: rgb(228, 135, 111);
+    --uiAccentColor: rgb(240, 0, 0);
     --btnMiniPlayColor: rgb(183, 18, 18);
     --btnPlayBorderColor: color-mix(in srgb, var(--btnMiniPlayColor), rgb(255, 255, 255) 5%);
     --backgroundGradient: linear-gradient(0deg, var(--darkerGradientPoint) 35%, var(--lighterGradientPoint));
@@ -38,18 +38,18 @@
     --hoverGradientA: linear-gradient(130deg, rgb(255 255 255 / 35%) 20%, rgb(255 255 255 / 15%) 40%);
     --hoverGradientB: radial-gradient(100% 250% at 90% 190%, rgba(255, 255, 255, 0.15) 85%, rgba(255, 255, 255, 0.33) 100%);
     --shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12), 0 3px 1px -2px rgba(0, 0, 0, .2);
-    --largerRadius: 1.25em;
-    --largeRadius: 1em;
+    --largerRadius: 1,25em;
+    --largeRadius: 3em;
     --smallRadius: .5em;
-    --smallerRadius: .375em;
-    --borderWidth: 0.075em;
+    --smallerRadius: 3.375em;
+    --borderWidth: 0,1em;
     --defaultBorder: var(--borderWidth) solid var(--borderColor);
     --defaultLighterBorder: var(--borderWidth) solid var(--lighterBorderColor);
 
     /* login page customizations */
     /* --loginPageBgUrl: url("<YOUR-JELLYFIN-SERVER-ADDRESS>/Branding/Splashscreen?format=webp&foregroundLayer=1&quality=33&width=3840&height=2160&blur=2"); */
     --loginPageBgUrl: url("");
-    --loginPageText: "Sign in to continue";
+    --loginPageText: "Connectez-vous pour continuer";
 
     --blurSmallest: blur(2px);
     --blurDefault: blur(5px);
